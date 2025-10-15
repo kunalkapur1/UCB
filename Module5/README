@@ -10,5 +10,9 @@ Analyzing the "Coffee House" coupon data, key hypothesis:
 2. Heatmap analysis shows that most coffee house coupons were accepted before 2pm, and for destinations other than Home.
 3. Heatmap analysis shows that most coffee house coupons were accepted by people who visited coffee houses 1-8 times a month and ordered Carry Out < 8 times a month.
 
+Next steps and recommendations:
+Apply Machine Learning algorithms (e.g. Regression analysis) to help identify additional patterns of coupon acceptance. 
+I spent plenty of time manually using Jupyter Notebook to analyze the data, and I hope that machine learning can simplify this significantly.
+
 Link to Jupyter Notebook:
 https://github.com/kunalkapur1/UCB/blob/main/Module5/CouponAnalysis.ipynb
