@@ -1,2 +1,14 @@
 Summary of findings
 
+Hypothesis for Bar Coupons
+1. Frequent (4+/month) bar goers acceptance rate was highest at 0.77, however, they represented only a small population of 7.5% (153 participants) of the 2017 bar coupon accepting population. By comparison a larger population 33% (666 participants) were accepted by < 4/month bar goers. It may be that in general, there are far fewer people who frequent bars 4+/month.
+2. Acceptance was higher when kids were not passengers.
+
+Independent Investigation
+Analyzing the "Coffee House" coupon data, key hypothesis:
+1. Iterating through multiple columns, destination "No Urgent Place" had high acceptance.
+2. Heatmap analysis shows that most coffee house coupons were accepted before 2pm, and for destinations other than Home.
+3. Heatmap analysis shows that most coffee house coupons were accepted by people who visited coffee houses 1-8 times a month and ordered Carry Out < 8 times a month.
+
+Link to Jupyter Notebook:
+https://github.com/kunalkapur1/UCB/blob/main/Module5/CouponAnalysis.ipynb
