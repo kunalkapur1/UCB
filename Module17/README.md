@@ -8,3 +8,6 @@ Based on the tuned models test accuracy, SVM scored the highest at 0.8975, so it
 However, if human interpretability is important, Decision Tree offers comparable test accuracy at 0.8962.
 
 Link to Jupyter Notebook: https://github.com/kunalkapur1/UCB/blob/main/Module17/BankMarketingCallsAnalysis.ipynb
+
+**Note:** If you encounter a Github pipeline view rendering issue, please use this NBViewer link instead:
+https://nbviewer.org/github/kunalkapur1/UCB/blob/main/Module17/BankMarketingCallsAnalysis.ipynb
