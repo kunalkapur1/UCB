@@ -84,6 +84,11 @@ The project uses a mix of unsupervised, supervised, and forecasting methods beca
 ## Key Learning Insights Summary
 Build the simplest possible model on the cleanest possible data, understand what each row means, engineer features that encode domain knowledge, and never confuse analytical sophistication with operational usefulness.
 
+## Results Summary
+- **Logs**: With the domain feature engineering (using tokenized_sorted_log instead of raw_log), Birch algorithm yielded the best results, successfully reducing 10,000 logs to 12 clusters!
+- **Forecasting**: Both ARIMA and LTSM models were able to predict when the JVM will run out of memory.
+- **RCA**: With the domain feature engineering (correlated traces, metrics and logs) Decision tree was able to correctly classify normal Vs slow Vs error traces. 
+
 ## Future work 
 * **AI Agent-driven Observability** To reduce human toil in observability. Use AI Agents to automate error and performance diagnostics, impact analysis and resolution, including using error fingerprinting and correlation with knowledge/support base for patches, runbooks, etc.
 * **Gen AI (LLM) Interface** To allow users to ask questions in natural language, and provide intelligent responses based on the analyzed data.
