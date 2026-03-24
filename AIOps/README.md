@@ -89,6 +89,18 @@ Build the simplest possible model on the cleanest possible data, understand what
 - **Forecasting**: Both ARIMA and LTSM models were able to predict when the JVM will run out of memory.
 - **RCA**: With the domain feature engineering (correlated traces, metrics and logs) Decision tree was able to correctly classify normal Vs slow Vs error traces. 
 
+## Actionability
+Summary of the key actionable tasks from the above notebooks
+* Logs
+- Pre-processing logs with simple regex can be a huge cost and effort saving for log analysis.
+- Alerts shoud be defined to investigate log anomalies, as they could be security intrusions.
+* Forecasting JVM OutOfMemory
+- Optimize memory usage, increase memory limits, or periodically gracefully restart the JVM.
+* RCA
+- Slow traces: Optimize DB queries and improve JVM resource constraints.
+- Error traces: Analyze logs for WARN/ERROR level logs.
+
+
 ## Future work 
 * **AI Agent-driven Observability** To reduce human toil in observability. Use AI Agents to automate error and performance diagnostics, impact analysis and resolution, including using error fingerprinting and correlation with knowledge/support base for patches, runbooks, etc.
 * **Gen AI (LLM) Interface** To allow users to ask questions in natural language, and provide intelligent responses based on the analyzed data.
