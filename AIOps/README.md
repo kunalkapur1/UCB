@@ -34,11 +34,11 @@ This project shows how telemetry can be transformed into actionable operational 
 ## Data Analysis and ML Algorithms
 This project explores three key areas:
 * ➡️ Open [Logs.ipynb](Logs.ipynb) for **Log Analysis**  
-Pattern discovery to group similar log messages and identify outliers (anomalies). Applied unsupervised clustering algorithms (**DBSCAN, Birch, K-Means with PCA and GridSearchCV**) and outlier (**Isolation Forest**). Supervised classification algorithms **RandomForestClassifier, CNN, Naive Bayes, SVM** were also tried, but not included in the Project since in the real-world logs are frequently unpredictable.
+Pattern discovery to group similar log messages and identify outliers (anomalies). Applied unsupervised clustering algorithms (**DBSCAN, Birch, K-Means with PCA and GridSearchCV**) and outlier (**Isolation Forest**). (Supervised classification algorithms **RandomForestClassifier, CNN, Naive Bayes, SVM** were also tried, but not included in the Project since in the real-world logs are frequently unpredictable).
 * ➡️ Open [Forecasting.ipynb](Forecasting.ipynb) for **JVM OutOfMemory Forecasting**   
 Time Series forecasting using **ARIMA and LSTM** models to predict when the JVM will run out of memory.
 * ➡️ Open [RCA.ipynb](RCA.ipynb) for **Root Cause Analysis and Actionability**   
-Uses a unified Observability dataframe (correlated traces + metrics + logs) to analyze error and slow traces. Applied **DecisionTreeClassifier** to classify traces (normal, slow, error) and identify key contributing features. Also created a human-readable troubleshooting tree, and listed actionable steps.
+Uses a unified Observability dataframe (correlated traces + metrics + logs) to analyze error and slow traces. Applied **DecisionTreeClassifier** to classify traces (normal, slow, error) and identify key contributing features. 
 
 ## Data Understanding
 
