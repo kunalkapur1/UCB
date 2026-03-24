@@ -14,7 +14,7 @@ The goal is to apply ML techniques to minimize human toil:
 * Forecast system behavior
 * Triage issues and identify the root causes of failures
 
-For this project, OpenTelemetry signals data has been synthetically generated to simulate a typical Java-based enterprise distributed Application with the topology shown in the diagram below.
+For this project, OpenTelemetry signals data has been synthetically generated to simulate a typical Java-based enterprise distributed application with the topology shown in the diagram below.
 
 ## Business Understanding
 
@@ -64,12 +64,17 @@ Uses a unified Observability dataframe (correlated traces + metrics + logs) to a
 - Scenarios: `normal`, `slow`, `error`, `security`
 
 ## Machine Learning Techniques Used
+* Logs - Unsupervised Learning
 - **TF-IDF**: transforms log text into weighted token features.
 - **PCA**: reduces dimensionality for visualization and clustering.
 - **K-Means**: centroid-based clustering of log patterns.
 - **DBSCAN**: density-based clustering that can mark noise points.
 - **Birch**: scalable hierarchical clustering for large log corpora.
 - **Isolation Forest**: unsupervised anomaly detection for rare log events.
+* Forecasting - Time-Series Models
+- **ARIMA**: forecasts future values by modeling trends, seasonality
+- **LSTM**: deep-learning to predict non-linear time-series 
+* RCA 
 - **Dummy Classifier**: As baseline to compare against Decision Tree.
 - **Decision Tree Classifier**: interpretable model for trace-state classification in RCA.
 
@@ -80,7 +85,7 @@ The project uses a mix of unsupervised, supervised, and forecasting methods beca
 Build the simplest possible model on the cleanest possible data, understand what each row means, engineer features that encode domain knowledge, and never confuse analytical sophistication with operational usefulness.
 
 ## Future work 
-* **AI Agent-driven Observability** To reduce human toil in Observability. Use AI Agents to automate error and performance diagnostics, impact analysis and resolution, including using error fingerprinting and correlation with knowledge/support base for patches, runbooks, etc.
+* **AI Agent-driven Observability** To reduce human toil in observability. Use AI Agents to automate error and performance diagnostics, impact analysis and resolution, including using error fingerprinting and correlation with knowledge/support base for patches, runbooks, etc.
 * **Gen AI (LLM) Interface** To allow users to ask questions in natural language, and provide intelligent responses based on the analyzed data.
 * **OpenTelemetry signal optimization** The future of Observability will not be defined by how much telemetry data is stored, but by how intelligently systems decide what telemetry data to generate and keep. Over 90% of signal data can be unused and hence useless! Instead of petabytes of signal data generation, ingestion, storage, and analysis - intelligently reduce data at the source (Telemetry Agents) or close by (Collector) pre-ingestion by applying ML/AI based rules.
 
