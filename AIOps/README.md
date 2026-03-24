@@ -64,17 +64,17 @@ Uses a unified Observability dataframe (correlated traces + metrics + logs) to a
 - Scenarios: `normal`, `slow`, `error`, `security`
 
 ## Machine Learning Techniques Used
-* Logs - Unsupervised Learning
+### Logs - Unsupervised Learning
 - **TF-IDF**: transforms log text into weighted token features.
 - **PCA**: reduces dimensionality for visualization and clustering.
 - **K-Means**: centroid-based clustering of log patterns.
 - **DBSCAN**: density-based clustering that can mark noise points.
 - **Birch**: scalable hierarchical clustering for large log corpora.
 - **Isolation Forest**: unsupervised anomaly detection for rare log events.
-* Forecasting - Time-Series Models
+### Forecasting - Time-Series Models
 - **ARIMA**: forecasts future values by modeling trends, seasonality
 - **LSTM**: deep-learning to predict non-linear time-series 
-* RCA 
+### RCA 
 - **Dummy Classifier**: As baseline to compare against Decision Tree.
 - **Decision Tree Classifier**: interpretable model for trace-state classification in RCA.
 
