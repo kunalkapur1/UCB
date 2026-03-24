@@ -34,7 +34,7 @@ This project shows how telemetry can be transformed into actionable operational 
 ## Data Analysis and ML Algorithms
 This project explores three key areas:
 * ➡️ Open [Logs.ipynb](Logs.ipynb) for **Log Analysis**  
-Pattern discovery to group similar log messages and identify outliers (anomalies). Applied unsupervised clustering algorithms (**DBSCAN, Birch, K-Means with PCA and GridSearchCV**) and outlier (**Isolation Forest**). Also experimented with supervised classification algorithms **RandomForestClassifier, CNN, Naive Bayes, SVM**. Logs are the most challenging observability signal due to their unstructured and noisy nature.
+Pattern discovery to group similar log messages and identify outliers (anomalies). Applied unsupervised clustering algorithms (**DBSCAN, Birch, K-Means with PCA and GridSearchCV**) and outlier (**Isolation Forest**). (Supervised classification algorithms **RandomForestClassifier, CNN, Naive Bayes, SVM** were also tried, but not included in the Project since in the real-world logs are frequently unpredictable).
 * ➡️ Open [Forecasting.ipynb](Forecasting.ipynb) for **JVM OutOfMemory Forecasting**   
 Time Series forecasting using **ARIMA and LSTM** models to predict when the JVM will run out of memory.
 * ➡️ Open [RCA.ipynb](RCA.ipynb) for **Root Cause Analysis and Actionability**   
@@ -70,6 +70,7 @@ Uses a unified Observability dataframe (correlated traces + metrics + logs) to a
 - **DBSCAN**: density-based clustering that can mark noise points.
 - **Birch**: scalable hierarchical clustering for large log corpora.
 - **Isolation Forest**: unsupervised anomaly detection for rare log events.
+- **Dummy Classifier**: As baseline to compare against Decision Tree.
 - **Decision Tree Classifier**: interpretable model for trace-state classification in RCA.
 
 ### Why These Algorithms?
