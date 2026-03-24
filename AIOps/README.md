@@ -91,14 +91,14 @@ Build the simplest possible model on the cleanest possible data, understand what
 
 ## Actionability
 Summary of the key actionable tasks from the above notebooks
-* Logs
-- Pre-processing logs with simple regex can be a huge cost and effort saving for log analysis.
-- Alerts shoud be defined to investigate log anomalies, as they could be security intrusions.
-* Forecasting JVM OutOfMemory
-- Optimize memory usage, increase memory limits, or periodically gracefully restart the JVM.
-* RCA
-- Slow traces: Optimize DB queries and improve JVM resource constraints.
-- Error traces: Analyze logs for WARN/ERROR level logs.
+* **Logs**
+    - Pre-processing logs with simple regex can be a huge cost and effort saving for log analysis.
+    - Alerts shoud be defined to investigate log anomalies, as they could be security intrusions.
+* **Forecasting JVM OutOfMemory**
+    - Optimize memory usage, increase memory limits, or periodically gracefully restart the JVM.
+* **RCA**
+    - Slow traces: Optimize DB queries and improve JVM resource constraints.
+    - Error traces: Analyze logs for WARN/ERROR level logs.
 
 
 ## Future work 
