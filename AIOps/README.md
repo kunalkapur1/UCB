@@ -1,6 +1,6 @@
 # AIOps RCA System: Evidence-Grounded, Multi-Layer Observability with LLM Reasoning
 
-![Architecture Diagram](aiops_rca_architecture_colored.png)
+![Architecture Diagram](aiops_rca_architecture.png)
 
 ## Overview
 This project demonstrates a production-oriented AIOps system that transforms high-volume observability data into actionable, explainable root cause analysis (RCA) and operational decision support.
