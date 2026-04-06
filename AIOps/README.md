@@ -48,7 +48,7 @@ These notebooks serve as **implementation artifacts supporting the system design
 - [Logs.ipynb](./Logs.ipynb)  
   Log clustering and pattern extraction:
   - Template generation and clustering
-  - Noise reduction (~800:1)
+  - Noise reduction (~500:1)
   - Feature engineering for RCA  
 
 - [Forecasting.ipynb](./Forecasting.ipynb)  
