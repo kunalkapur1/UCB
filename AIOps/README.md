@@ -1,13 +1,13 @@
 # AIOps RCA System: Evidence-Grounded, Multi-Layer Observability with LLM Reasoning
 
-![Architecture Diagram](aiops_rca_architecture_clean.png)
+![Architecture Diagram](aiops_rca_architecture_colored.png)
 
 ## Overview
 This project demonstrates a production-oriented AIOps system that transforms high-volume observability data into actionable, explainable root cause analysis (RCA) and operational decision support.
 
 ## Key Capabilities
 - Cross-layer correlation (HAR → JFR)
-- >99% signal reduction
+- >99% signal reduction (Logs 500:1, Traces 225:1)
 - Feature engineering to improve ML analysis
 - Evidence-grounded LLM reasoning
 - RAG + MCP integration (including bugs/patches)
