@@ -59,23 +59,22 @@ These notebooks serve as **implementation artifacts supporting the system design
   Outline for evidence-grounded RCA with constrained Agentic refinement using LLM synthesis, and optional guided evidence selection
   - RAG, MCP with LLM based synthesis, guided evidence selection
 
-### 🔷 Suggested Navigation
+### Suggested Navigation
 1. Review the architecture overview above  
 2. Open **RCA.ipynb** for the end-to-end system flow  
 3. Explore supporting notebooks for detailed components  
 
 ---
 
-## 🔷 Future Directions
+## Future Directions
 
-- Agentic RCA with iterative evidence gathering  
 - Real-time streaming pipeline integration  
 - Automated remediation workflows  
 - Production deployment architecture  
 
 ---
 
-## 🔷 Summary
+## Summary
 
 This project demonstrates a transition from:
 
