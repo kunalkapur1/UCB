@@ -54,6 +54,10 @@ These notebooks serve as **implementation artifacts supporting the system design
 - [Forecasting.ipynb](./Forecasting.ipynb)  
   Time-series analysis for a JVM OutOfMemory prediction:
   - Forecasting models (ARIMA/LSTM)
+ 
+- [SRE Agent Blueprint](./SRE-Agent-Blueprint.ipynb)
+  Outline for evidence-grounded RCA with constrained Agentic refinement using LLM synthesis, and optional guided evidence selection
+  - RAG, MCP with LLM based synthesis, guided evidence selection
 
 ### 🔷 Suggested Navigation
 1. Review the architecture overview above  
