@@ -216,8 +216,6 @@ The RCA system builds on foundational signal processing techniques, including lo
   → time-series forecasting and anomaly detection  
   → identifies deviations that feed hypothesis generation  
 
-### Artifacts
-- `aiops-rca-agentic-architecture-learning-loop.svg` → system architecture diagram
 ---
 
 ## Key Takeaway
